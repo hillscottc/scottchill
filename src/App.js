@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron } from 'react-bootstrap';
 import CodeSamples from './code-samples'
+import './App.css';
 
 class App extends Component {
   render() {
@@ -19,13 +20,15 @@ class App extends Component {
           <Jumbotron>
             <Grid>
 
-              <h1>Scott C. Hill</h1>
-              <p>software engineer, web developer</p>
-              <p>
-                [<a href="http://blog.scottchill.com">tech blog</a>,
-                <a href="https://www.linkedin.com/in/scotthill2000">linkedin</a>]
-              </p>
+              <section className="intro">
+                <header>Scott C. Hill</header>
 
+                <p>software engineer, web developer</p>
+                <p>
+                  [<a href="http://blog.scottchill.com">tech blog</a>,
+                  <a href="https://www.linkedin.com/in/scotthill2000">linkedin</a>]
+                </p>
+              </section>
 
               <CodeSamples />
 
