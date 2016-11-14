@@ -2,6 +2,11 @@
   "name": "scottchill",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillscottc/scottchill.git"
+  },
+  "homepage": "http://scottchill.com",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
@@ -14,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "git push heroku master",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
