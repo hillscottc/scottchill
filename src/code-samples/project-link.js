@@ -3,25 +3,25 @@
  */
 import React, { PropTypes }  from 'react'
 
-const ProjectLink = (props) => (
+const ProjectLink = ({github, running}) => (
   <span>
     &nbsp;(&nbsp;
 
-    {props.github &&
+    {github &&
       <span>
-        <a href={props.github}>github</a>
+        <a href={github}>github</a>
       </span>
     }
 
 
-    {props.github && props.running &&
+    {github && running &&
       <span>&nbsp;|&nbsp;</span>
     }
 
 
-    {props.running &&
+    {running &&
     <span>
-      <a href={props.running}>running</a>
+      <a href={running}>running</a>
     </span>
     }
 
