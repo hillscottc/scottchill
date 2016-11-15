@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron } from 'react-bootstrap';
-import CodeSamples from './code-samples'
+import CodeSamples from './code-samples/code-samples'
 import './App.css';
 
 class App extends Component {
