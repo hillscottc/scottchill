@@ -1,14 +1,16 @@
 .project {
-    font-weight: bold;
-    font-size: large;
+  font-weight: bold;
+  font-size: large;
 }
 
-div > header {
-    font-weight: bold;
-    font-size: x-large;
+
+.CodeSamples > section {
+  border-bottom: solid;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 
-section > header {
-    font-weight: bold;
-    font-size: large;
+.CodeSamples > section > p {
+  padding-left: 25px;
 }
+

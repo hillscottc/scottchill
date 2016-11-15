@@ -4,10 +4,10 @@ import './code-samples.css';
 const CodeSamples = () => (
     <div className="CodeSamples">
 
-      <header>Code Samples</header>
+      <h2>Code Samples</h2>
 
       <section>
-        <header>Plants App</header>
+        <h3>Plants App</h3>
 
         <p>
           A react UI for 90,000 records of <a target="_blank" href="https://plants.usda.gov/dl_all.html">USDA plant data</a>.
@@ -27,12 +27,12 @@ const CodeSamples = () => (
       </section>
 
       <section>
-        <header>Trivia App</header>
+        <h3>Trivia App</h3>
 
         <p>
-          A single-page web app as a UI for a collection of trivia questions. Uses <a href="https://nodejs.org/">Node</a>
-          and <a href="http://expressjs.com/">Express</a>
-          to serve an api for a PostgreSQL database of 180,000+ records.
+          A single-page web app as a UI for a collection of trivia questions.
+          Uses <a href="https://nodejs.org/">Node</a> and <a href="http://expressjs.com/">Express</a> to
+          serve an api for a PostgreSQL database of 180,000+ records.
         </p>
 
         <p>
@@ -42,22 +42,22 @@ const CodeSamples = () => (
         <br/>
 
         <p>
-          <span className="project">trivnode-react</span>...2016 with <a href="https://facebook.github.io/react/">React</a>.
+          <span className="project">trivnode-react</span> (2016) with <a href="https://facebook.github.io/react/">React</a>.
           (<a href="https://github.com/hillscottc/trivnode-react#readme">github</a>  | <a href="https://trivnode-react.herokuapp.com/">running</a>)
         </p>
 
         <p>
-          <span className="project">trivnode</span>...2014 with <a href="http://backbonejs.org/">Backbone.js</a> (<a href="https://github.com/hillscottc/trivnode#readme">github</a> | <a href="https://protected-lake-8296.herokuapp.com/">running</a>)
+          <span className="project">trivnode</span> (2014) with <a href="http://backbonejs.org/">Backbone.js</a> (<a href="https://github.com/hillscottc/trivnode#readme">github</a> | <a href="https://protected-lake-8296.herokuapp.com/">running</a>)
         </p>
 
         <p>
-          <span className="project">quest-django</span>...2013 with Python + <a href="https://www.djangoproject.com/">Django</a> (<a href="https://github.com/hillscottc/quest#readme">github</a> | <a href="https://quest-django.herokuapp.com/">running</a>)
+          <span className="project">quest-django</span> (2013) with Python + <a href="https://www.djangoproject.com/">Django</a> (<a href="https://github.com/hillscottc/quest#readme">github</a> | <a href="https://quest-django.herokuapp.com/">running</a>)
         </p>
 
       </section>
 
       <section>
-        <header>Fortune Teller App</header>
+        <h3>Fortune Teller App</h3>
 
         <p><span className="project">nostra</span> (<a href="https://github.com/hillscottc/nostra#readme">github</a>
           | <a href="https://badge.fury.io/js/nostra"><img src="https://badge.fury.io/js/nostra.svg" alt="npm version" height="18" /></a>)
