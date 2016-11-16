@@ -13,8 +13,8 @@ const CodeSamples = () => (
       <section>
         <Project
             name="scottchill.com"
-            github="https://github.com/hillscottc/scottchill"
-            running="https://scottchill.herokuapp.com/">
+            github="http://github.com/hillscottc/scottchill"
+            running="http://scottchill.herokuapp.com/">
         </Project>
       </section>
 
