@@ -1,10 +1,18 @@
 /**
- * Conditionally displays 'github' and 'running' links for a project.
+ * A summary of Project info.
+ * Conditionally displays 'github' and 'running' links for a project
+ * along with optional child content.
  */
 import React, { PropTypes }  from 'react'
 
-const ProjectLink = ({github, running}) => (
+const ProjectLink = ({name, github, running, children}) => (
   <span>
+
+    <span className="project">{name} </span>
+
+    {/* render nested content */}
+    {children}
+
     &nbsp;(&nbsp;
 
     {github &&
@@ -13,11 +21,9 @@ const ProjectLink = ({github, running}) => (
       </span>
     }
 
-
     {github && running &&
       <span>&nbsp;|&nbsp;</span>
     }
-
 
     {running &&
     <span>
@@ -30,6 +36,7 @@ const ProjectLink = ({github, running}) => (
 );
 
 ProjectLink.propTypes = {
+  name: PropTypes.string.isRequired,
   github: PropTypes.string,
   running: PropTypes.string
 };

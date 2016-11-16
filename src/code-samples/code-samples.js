@@ -14,14 +14,16 @@ const CodeSamples = () => (
           Implemented in two ways:
         </p>
         <p>
-          <span className="project">isomorphic React-Starter-Kit</span>
-          <ProjectLink github="https://github.com/hillscottc/plantapp-iso"
+          <ProjectLink
+              name="isomorphic React-Starter-Kit"
+              github="https://github.com/hillscottc/plantapp-iso"
               running="https://plantapp-iso.herokuapp.com/" />
         </p>
         <p>
-          <span className="project">Create-React-App</span>
-          <ProjectLink github="https://github.com/hillscottc/plantapp"
-                       running="https://plantapp.herokuapp.com" />
+          <ProjectLink
+              name="Create-React-App"
+              github="https://github.com/hillscottc/plantapp"
+              running="https://plantapp.herokuapp.com" />
         </p>
       </section>
 
@@ -36,39 +38,56 @@ const CodeSamples = () => (
         </p>
         <br/>
         <p>
-          <span className="project">trivnode-react</span> (2016) with React.
-          <ProjectLink github="https://github.com/hillscottc/trivnode-react"
-                       running="https://trivnode-react.herokuapp.com/" />
+          <ProjectLink
+              name="trivnode-react"
+              github="https://github.com/hillscottc/trivnode-react"
+              running="https://trivnode-react.herokuapp.com/">
+            <span>(2016) with React.</span>
+          </ProjectLink>
         </p>
         <p>
-          <span className="project">trivnode</span> (2014) with Backbone.js
-          <ProjectLink github="https://github.com/hillscottc/trivnode"
-                       running="https://protected-lake-8296.herokuapp.com/" />
+          <ProjectLink
+              name="trivnode"
+              github="https://github.com/hillscottc/trivnode"
+              running="https://protected-lake-8296.herokuapp.com/">
+            <span>(2014) with Backbone.js</span>
+          </ProjectLink>
         </p>
         <p>
-          <span className="project">quest-django</span> (2013) with Python + Django
-          <ProjectLink github="https://github.com/hillscottc/quest"
-                       running="https://quest-django.herokuapp.com/" />
+          <ProjectLink
+              name="quest-django"
+              github="https://github.com/hillscottc/quest"
+              running="https://quest-django.herokuapp.com/">
+            <span>(2013) with Python + Django</span>
+          </ProjectLink>
         </p>
       </section>
 
       <h3>Fortune Teller App</h3>
+      <p>A Node module for generating random-ish fortune text, hosted on the <i>npm</i> package registry.</p>
       <section>
         <p>
-          <span className="project">nostra</span>
-          <ProjectLink github="https://github.com/hillscottc/nostra" />
-          {/* NPM badge*/}
-          &nbsp;<a href="https://badge.fury.io/js/nostra"><img src="https://badge.fury.io/js/nostra.svg" alt="npm version" height="18" /></a>
-        </p>
-        <p>A Node module for generating random-ish fortune text, hosted on the <i>npm</i> package registry.</p>
-        <p>
-          <span className="project">nostranode-react</span>...simple UI in Node, express, and React
-          <ProjectLink github="https://github.com/hillscottc/nostranode-react" />
+          <ProjectLink
+              name="nostra"
+              github="https://github.com/hillscottc/nostra">
+            {/* NPM badge*/}
+            <a href="https://badge.fury.io/js/nostra"><img src="https://badge.fury.io/js/nostra.svg" alt="npm version" height="18" /></a>
+          </ProjectLink>
         </p>
         <p>
-          <span className="project">nostranode</span>...simple UI with Bootstrap+ jQuery
-          <ProjectLink github="https://github.com/hillscottc/nostranode"
-                       running="https://nostranode.herokuapp.com/" />
+          <ProjectLink
+              name="nostranode-react"
+              github="https://github.com/hillscottc/nostranode-react">
+            <span>...simple UI in Node, express, and React</span>
+          </ProjectLink>
+        </p>
+        <p>
+          <ProjectLink
+              name="nostranode"
+              github="https://github.com/hillscottc/nostranode"
+              running="https://nostranode.herokuapp.com/">
+            <span>...simple UI with Bootstrap+ jQuery</span>
+          </ProjectLink>
         </p>
       </section>
 
