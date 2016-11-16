@@ -26,15 +26,17 @@ const CodeSamples = () => (
         </p>
         <Project
             name="isomorphic React"
+            year="2016"
             github="https://github.com/hillscottc/plantapp-iso"
             running="https://plantapp-iso.herokuapp.com/">
-          <span>(2016) with React-Starter-Kit boilerplate</span>
+          <span>with React-Starter-Kit boilerplate</span>
         </Project>
         <Project
             name="Express + client React"
+            year="2016"
             github="https://github.com/hillscottc/plantapp"
             running="https://plantapp.herokuapp.com">
-          <span>(2016) with create-react-app boilerplate</span>
+          <span>with create-react-app boilerplate</span>
         </Project>
       </section>
 
@@ -49,21 +51,24 @@ const CodeSamples = () => (
         </p>
         <Project
             name="trivnode-react"
+            year="2016"
             github="https://github.com/hillscottc/trivnode-react"
             running="https://trivnode-react.herokuapp.com/">
-          <span>(2016) with React.</span>
+          <span>with React.</span>
         </Project>
         <Project
             name="trivnode"
+            year="2014"
             github="https://github.com/hillscottc/trivnode"
             running="https://protected-lake-8296.herokuapp.com/">
-          <span>(2014) with Backbone.js</span>
+          <span>with Backbone.js</span>
         </Project>
         <Project
             name="quest-django"
+            year="2013"
             github="https://github.com/hillscottc/quest"
             running="https://quest-django.herokuapp.com/">
-          <span>(2013) with Python + Django</span>
+          <span>with Python + Django</span>
         </Project>
       </section>
 
@@ -72,20 +77,23 @@ const CodeSamples = () => (
         <p>A Node module for generating random-ish fortune text, hosted on the <i>npm</i> package registry.</p>
         <Project
             name="nostra"
+            year="2015"
             github="https://github.com/hillscottc/nostra">
           {/* NPM badge*/}
           <a href="https://badge.fury.io/js/nostra"><img src="https://badge.fury.io/js/nostra.svg" alt="npm version" height="18" /></a>
         </Project>
         <Project
             name="nostranode-react"
+            year="2015"
             github="https://github.com/hillscottc/nostranode-react">
-          <span>...simple UI in Node, express, and React</span>
+          <span>a basic UI with React</span>
         </Project>
         <Project
             name="nostranode"
+            year="2015"
             github="https://github.com/hillscottc/nostranode"
             running="https://nostranode.herokuapp.com/">
-          <span>...simple UI with Bootstrap+ jQuery</span>
+          <span>a basic UI with Bootstrap and jQuery</span>
         </Project>
       </section>
 

@@ -7,10 +7,14 @@ import React, { PropTypes }  from 'react'
 import './project.css';
 
 
-const Project = ({name, github, running, children}) => (
+const Project = ({name, year, github, running, children}) => (
   <span className="project">
 
     <span className="projectName">{name} </span>
+
+    {year &&
+      <span>({year}) </span>
+    }
 
     {/* render nested content */}
     {children}
@@ -40,6 +44,7 @@ const Project = ({name, github, running, children}) => (
 
 Project.propTypes = {
   name: PropTypes.string.isRequired,
+  year: PropTypes.string,
   github: PropTypes.string,
   running: PropTypes.string
 };
