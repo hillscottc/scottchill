@@ -23,7 +23,7 @@ const Project = ({name, year, github, running, children}) => (
 
     {github &&
       <span>
-        <a href={github}>github</a>
+        <a href={github} target="_top">github</a>
       </span>
     }
 
@@ -33,7 +33,7 @@ const Project = ({name, year, github, running, children}) => (
 
     {running &&
     <span>
-      <a href={running}>running</a>
+      <a href={running} target="_top">running</a>
     </span>
     }
 
