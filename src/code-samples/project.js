@@ -4,11 +4,13 @@
  * along with optional child content.
  */
 import React, { PropTypes }  from 'react'
+import './project.css';
 
-const ProjectLink = ({name, github, running, children}) => (
-  <span>
 
-    <span className="project">{name} </span>
+const Project = ({name, github, running, children}) => (
+  <span className="project">
+
+    <span className="projectName">{name} </span>
 
     {/* render nested content */}
     {children}
@@ -32,13 +34,14 @@ const ProjectLink = ({name, github, running, children}) => (
     }
 
     &nbsp;)
+    <br/>
   </span>
 );
 
-ProjectLink.propTypes = {
+Project.propTypes = {
   name: PropTypes.string.isRequired,
   github: PropTypes.string,
   running: PropTypes.string
 };
 
-export default ProjectLink;
+export default Project;

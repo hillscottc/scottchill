@@ -1,16 +1,9 @@
-.project {
-  font-weight: bold;
-  font-size: large;
-}
-
 
 .CodeSamples > section {
   border-bottom: solid;
   margin-bottom: 30px;
   padding-bottom: 10px;
-}
-
-.CodeSamples > section > p {
   padding-left: 25px;
 }
+
 
