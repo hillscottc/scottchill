@@ -59,15 +59,13 @@ const CodeSamples = () => (
         <Project
             name="trivnode"
             year="2014"
-            github="https://github.com/hillscottc/trivnode"
-            running="https://protected-lake-8296.herokuapp.com/">
+            github="https://github.com/hillscottc/trivnode">
           <span>with Backbone.js</span>
         </Project>
         <Project
             name="quest-django"
             year="2013"
-            github="https://github.com/hillscottc/quest"
-            running="https://quest-django.herokuapp.com/">
+            github="https://github.com/hillscottc/quest">
           <span>with Python + Django</span>
         </Project>
       </section>
