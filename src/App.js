@@ -22,7 +22,6 @@ class App extends Component {
 
               <section className="intro">
                 <header>Scott C. Hill</header>
-
                 <p>software engineer, web developer</p>
                 <p>
                   [<a href="http://blog.scottchill.com">tech blog</a>,
