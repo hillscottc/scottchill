@@ -24,8 +24,9 @@ class App extends Component {
                 <header>Scott C. Hill</header>
                 <p>software engineer, web developer</p>
                 <p>
-                  [<a href="http://blog.scottchill.com">tech blog</a>,
-                  <a href="https://www.linkedin.com/in/scotthill2000">linkedin</a>]
+                  [ <a href="https://github.com/hillscottc">github</a>,&nbsp;
+                  <a href="http://blog.scottchill.com">blog</a>,&nbsp;
+                  <a href="https://www.linkedin.com/in/scotthill2000">linkedin</a> ]
                 </p>
               </section>
 

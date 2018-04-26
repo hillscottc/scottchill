@@ -29,14 +29,13 @@ const CodeSamples = () => (
             year="2016"
             github="https://github.com/hillscottc/plantapp-iso"
             running="https://plantapp-iso.herokuapp.com/">
-          <span>with React-Starter-Kit boilerplate</span>
         </Project>
         <Project
-            name="Express + client React"
+            name="client-side React + MobX"
             year="2016"
             github="https://github.com/hillscottc/plantapp"
             running="https://plantapp.herokuapp.com">
-          <span>with create-react-app boilerplate</span>
+          <span>(create-react-app)</span>
         </Project>
       </section>
 
